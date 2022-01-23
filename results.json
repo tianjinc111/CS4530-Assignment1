@@ -1,0 +1,195 @@
+{
+  "suites": {
+    "title": "root",
+    "fullTitle": "root",
+    "suites": [
+      {
+        "title": "test the text() methods on AST nodes",
+        "fullTitle": "test the text() methods on AST nodes",
+        "suites": [],
+        "tests": [
+          {
+            "title": "calling text() on assignment",
+            "fullTitle": "test the text() methods on AST nodes calling text() on assignment",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on nested assignment",
+            "fullTitle": "test the text() methods on AST nodes calling text() on nested assignment",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on sequence of assignments",
+            "fullTitle": "test the text() methods on AST nodes calling text() on sequence of assignments",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on + expression with two numeric args",
+            "fullTitle": "test the text() methods on AST nodes calling text() on + expression with two numeric args",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on + expression with two string args",
+            "fullTitle": "test the text() methods on AST nodes calling text() on + expression with two string args",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on + expression with two mixed args",
+            "fullTitle": "test the text() methods on AST nodes calling text() on + expression with two mixed args",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on a statement sequence",
+            "fullTitle": "test the text() methods on AST nodes calling text() on a statement sequence",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on another statement sequence",
+            "fullTitle": "test the text() methods on AST nodes calling text() on another statement sequence",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 8,
+        "fail": 0
+      },
+      {
+        "title": "CountVisitorTests",
+        "fullTitle": "CountVisitorTests",
+        "suites": [],
+        "tests": [
+          {
+            "title": "count nodes in a small AST",
+            "fullTitle": "CountVisitorTests count nodes in a small AST",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "count nodes in a small AST",
+            "fullTitle": "CountVisitorTests count nodes in a small AST",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "count nodes in a small AST",
+            "fullTitle": "CountVisitorTests count nodes in a small AST",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "count nodes in a small AST",
+            "fullTitle": "CountVisitorTests count nodes in a small AST",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "count nodes in a small AST",
+            "fullTitle": "CountVisitorTests count nodes in a small AST",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 5,
+        "fail": 0
+      },
+      {
+        "title": "StmtIteratorTests",
+        "fullTitle": "StmtIteratorTests",
+        "suites": [],
+        "tests": [
+          {
+            "title": "iterator through the statements of a small AST",
+            "fullTitle": "StmtIteratorTests iterator through the statements of a small AST",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "iterator through the statements of a small AST",
+            "fullTitle": "StmtIteratorTests iterator through the statements of a small AST",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "iterator through the statements of a small AST",
+            "fullTitle": "StmtIteratorTests iterator through the statements of a small AST",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 3,
+        "fail": 0
+      },
+      {
+        "title": "TypeCheckVisitorTests",
+        "fullTitle": "TypeCheckVisitorTests",
+        "suites": [],
+        "tests": [
+          {
+            "title": "type-check a small AST with both kinds of errors",
+            "fullTitle": "TypeCheckVisitorTests type-check a small AST with both kinds of errors",
+            "status": "FAIL",
+            "error": "expected [ Array(4) ] to have the same members as [ Array(2) ]"
+          },
+          {
+            "title": "type-check a small AST with both kinds of errors",
+            "fullTitle": "TypeCheckVisitorTests type-check a small AST with both kinds of errors",
+            "status": "FAIL",
+            "error": "expected [ Array(5) ] to have the same members as [ Array(3) ]"
+          },
+          {
+            "title": "type-check a small AST with both kinds of errors",
+            "fullTitle": "TypeCheckVisitorTests type-check a small AST with both kinds of errors",
+            "status": "FAIL",
+            "error": "expected [ Array(3) ] to have the same members as [ Array(1) ]"
+          },
+          {
+            "title": "type-check a small AST with both kinds of errors",
+            "fullTitle": "TypeCheckVisitorTests type-check a small AST with both kinds of errors",
+            "status": "FAIL",
+            "error": "expected [ Array(2) ] to have the same members as []"
+          },
+          {
+            "title": "type-check a small AST with both kinds of errors",
+            "fullTitle": "TypeCheckVisitorTests type-check a small AST with both kinds of errors",
+            "status": "FAIL",
+            "error": "expected [ Array(3) ] to have the same members as [ 'Type error in expression: 1 + x' ]"
+          },
+          {
+            "title": "type-check a small AST with both kinds of errors",
+            "fullTitle": "TypeCheckVisitorTests type-check a small AST with both kinds of errors",
+            "status": "FAIL",
+            "error": "expected [ Array(4) ] to have the same members as [ Array(3) ]"
+          },
+          {
+            "title": "type-check a small AST with both kinds of errors",
+            "fullTitle": "TypeCheckVisitorTests type-check a small AST with both kinds of errors",
+            "status": "FAIL",
+            "error": "expected [ Array(4) ] to have the same members as [ Array(3) ]"
+          }
+        ],
+        "pass": 0,
+        "fail": 7
+      }
+    ],
+    "tests": [],
+    "pass": 0,
+    "fail": 0
+  },
+  "stats": {
+    "suites": 4,
+    "tests": 23,
+    "passes": 16,
+    "pending": 0,
+    "failures": 7,
+    "start": "2020-10-23T15:43:03.156Z",
+    "end": "2020-10-23T15:43:03.198Z",
+    "duration": 42
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"DuplicateDeclarationError.js","sourceRoot":"","sources":["../../src/DuplicateDeclarationError.ts"],"names":[],"mappings":";;AAGA,MAAM,yBAAyB;IAG3B,YAAY,GAAW,IAAG,CAAC;IAEpB,QAAQ;QACX,OAAO,iCAAiC,GAAG,IAAI,CAAC,GAAG,CAAC;IACxD,CAAC;CACJ;AAGD,kBAAe,yBAAyB,CAAA"}
